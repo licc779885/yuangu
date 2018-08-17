@@ -1,0 +1,46 @@
+page{background:#f0f2f5;font-size: 0.7rem;padding-bottom:2.7rem;}
+.ov{overflow: hidden;}
+.fl{float: left;}
+.fr{float: right;}
+.cf2{color: #f23030;}
+.order_act{background: #fff;margin:0.5rem 0;border-bottom:1px solid #eee;border-top:1px solid #eee;}
+.order_act .act_top{height: 2.0rem;line-height: 2.0rem;border-bottom:1px solid #eee;padding:0 0.5rem;}
+.order_act .act_top .fl image{width:0.8rem;height:0.8rem;vertical-align: middle;margin:-0.2rem 0.4rem 0 0;}
+.order_act .act_dom{text-align: center;padding:1.0rem 0 0.4rem;margin-bottom:0.5rem;}
+.order_djs{height: 2.0rem;line-height: 2.0rem;border-bottom:1px solid #eee;background: #fff;margin-bottom:0.5rem;color: #666;padding:0 0.5rem;}
+.order_djs image{width:0.8rem;height:0.8rem;vertical-align: middle;margin:-0.2rem 0.4rem 0 0;}
+.act_dom_weix image{display: block;width:5.5rem;height:5.5rem;margin:0 auto;}
+.act_dom_num{margin:0.5rem 0 0.3rem;}
+.act_dom_tis{font-size:12px;color: #999;}
+.order_list_top{background: #fff;padding:0.6rem 2.5rem 0.9rem 0.7rem;position: relative;border-top:1px solid #eee;margin-bottom:0.5rem;}
+.order_list_top .imt image{display: block;width: 100%;height:2px;position: absolute;left: 0;bottom: 0;}
+.order_list_top .imb image{display: block;position:absolute;right:0.5rem;top:50%;margin-top:-0.45rem;width:0.5rem;height:0.89rem;}
+.order_list_top .mt{position: relative;}
+.order_list_top .top{font-size:0.75rem;color:#222;margin-bottom:0.3rem;}
+.order_list_top .top_name{padding-right:1.25rem;}
+.order_list_top .address{color: #666;padding-left:1.3rem;}
+.order_list_top .address image{display: block;width:0.7rem;position: absolute;left: 0;top:0.1rem;}
+.order_list_lt{background: #fff;border-top:1px solid #edeef0;border-bottom:1px solid #edeef0;}
+.order_list_lt .title{height:2.3rem;line-height:2.3rem;margin:0 0.5rem;border-bottom:1px solid #eee;}
+.order_list_lt .title image{display:inline-block;width: 1.0rem;height: 1.0rem;vertical-align: middle;margin:-0.2rem 0.5rem 0 0;}
+.order_list_lt .dom{padding:0 0.6rem;}
+.order_list_lt .list_lt{padding:0.5rem 0.2rem 0.5rem 0.5rem;border-bottom:1px solid #f0f1f3;overflow: hidden;position: relative;}
+.order_list_lt .llt_fl{float: left;width: 20%;}
+.order_list_lt .llt_fl image{width: 100%;}
+.order_list_lt .llt_fr{float: right;width:77%;line-height:150%;}
+.order_list_lt .llr_dom{position: absolute;bottom:0.5rem;width:70%;font-weight:bold;}
+.order_list_lt .llr_dom .dom_vule{float: left;color: #f23030;font-size:0.7rem;}
+.order_list_lt .llr_dom .dom_num{float: right;color:#333;font-weight: normal;}
+
+.order_caozuo{border-top:1px solid #eee;background: #f8f8f8;position: fixed;width: 100%;left: 0;bottom:0;}
+.order_caozuo .dom_caozuo{text-align: right;height: 2.2rem;}
+.order_caozuo .dom_caozuo button{display: inline-block;width:4.0rem;height:1.6rem;line-height: 1.65rem;padding: 0;font-size:0.65rem;border-radius: 3px;background: #fff;margin:0.3rem 0.5rem 0 0;}
+.order_caozuo .dom_caozuo button.active{border:1px solid #f23030;color: #f23030;}
+
+
+
+
+
+
+
+

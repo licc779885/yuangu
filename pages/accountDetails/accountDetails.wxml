@@ -1,0 +1,19 @@
+<view class="actList">
+  <view class='actList_top ov bg'>
+    <view class='lt active fl'>
+      <navigator class='lt_url' url=''>全部</navigator>
+    </view>
+    <view class='lt fl'>
+      <navigator class='lt_url' url=''>收入</navigator>
+    </view>
+    <view class='lt fl'>
+      <navigator class='lt_url' url=''>支出</navigator>
+    </view>
+  </view>
+  <!--无账户明细  -->
+  <view class='actList_none'>
+    <image mode="widthFix" src='/images/bg_empty.jpg' />
+    <view model="" class='actList_none_text'>没有符合条件的记录哦~</view>
+  </view>
+  <!--有账户明细  -->
+</view>

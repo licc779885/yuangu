@@ -1,0 +1,65 @@
+<!--购物车无-->
+<view class='cart_none' style='display:none;'>
+  <view class='cart_none_imt'>
+    <image src="/images/bg_empty_cart.png" class="slide-image" />
+  </view>
+  <view class='cart_none_text'>
+    <view class='ct_title'>购物车还是空空的呢</view>
+    <view class='ct_text'>先去挑选自己喜欢的宝贝吧！</view>
+  </view>
+  <view class='cart_none_btn'><navigator url='../index/index' open-type="switchTab">逛一逛</navigator></view>
+</view>
+
+<!--购物车有产品-->
+<view class='cart_list'>
+  <view class='list_title'><checkbox class='check check_all' value="" checked="true"/><image src="/images/icon_shop.png" class="t1" />圆古茶业</view>
+  <view class='list_lt'>
+    <view class='lt'>
+      <checkbox class='check' value="" checked="true"/>
+      <view class='lt_content'>
+        <view class='lt_top'>
+          <view class='lt_imt'><image src="/images/img_m1.jpg" /></view>
+          <view class='lt_text'>
+            <view class='name'>山国饮艺 大红袍 武夷岩茶 大红袍S8000 礼盒 浓香 茶叶 </view>
+            <view class='price'>￥3200.00</view>
+          </view>
+        </view>
+        <view class='lt_dom'>
+          <view class='ld_remove'><image src='/images/icon_remove.png'></image></view>
+          <view class='ld_caoz'>
+          <button bindtap="js_num">-</button>
+          <input class='num' type='number' placeholder="1" />
+          <button bindtap="add_num">+</button>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class='lt'>
+      <checkbox class='check' value="" checked="true"/>
+      <view class='lt_content'>
+        <view class='lt_top'>
+          <view class='lt_imt'><image src="/images/img_m1.jpg" /></view>
+          <view class='lt_text'>
+            <view class='name'>山国饮艺 大红袍 武夷岩茶 大红袍S8000 礼盒 浓香 茶叶 </view>
+            <view class='price'>￥3200.00</view>
+          </view>
+        </view>
+        <view class='lt_dom'>
+          <view class='ld_remove'><image src='/images/icon_remove.png'></image></view>
+          <view class='ld_caoz'>
+          <button bindtap="js_num">-</button>
+          <input class='num' type='number' placeholder="1" />
+          <button bindtap="add_num">+</button>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<!--底部  -->
+<view class='cart_foot'>
+  <view class='foot_fl'><checkbox class='check' value="" checked="true"/>全选</view>
+  <view class='foot_fr'><text class='money'>￥<text class='money_all'>200</text></text><button class='btn_buy'>下单</button></view>
+</view>
+
+

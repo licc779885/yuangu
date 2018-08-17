@@ -1,0 +1,38 @@
+/* pages/center/center.wxss */
+page{background: #f0f2f5;}
+.center_title,.center_title .title_imt image{height:7.5rem;width: 100%;overflow: hidden;position: relative;}
+.center_title .title_user{position: absolute;left:1.0rem;top:2.0rem;overflow: hidden;width:90%;color: #fff}
+.center_title .title_user image.user_imt{width:3.0rem;height:3.0rem;border: 2px solid rgba(255,255,255,.4);border-radius: 50%;float: left;margin-right: 0.5rem;}
+.center_title .user_info_name{font-size:1.1rem;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;width:70%;}
+.center_title .user_info_sta{border: 1px solid #fff;margin-top: 0.3rem;font-size: 11px;    color: #fff;background-color: rgba(180,50,27,.3);border-radius: 15px;display: inline-block;padding: 0 10px;}
+.center_title .btn_set,.center_title .btn_message{position: absolute;top: 0.7rem;}
+.center_title .btn_set image,.center_title .btn_message image{width: 1.2rem;height: 1.2rem;}
+.center_title .btn_set{right:2.7rem;}
+.center_title .btn_message{right:0.6rem;}
+
+.center_top{overflow: hidden;height: 2.5rem;line-height: 2.5rem;border-bottom:1px solid  #f0f2f5;padding:0 0.5rem;}
+.center_top .top_name{float: left;font-size: 0.8rem;color: #333;}
+.center_top .top_more{float: right;font-size: 0.65rem;color: #999;padding-right:0.8rem;position: relative;}
+.center_top .top_more image{position: absolute;right: 0;top: 50%;margin-top:-0.45rem;width: 0.5rem;height:0.89rem;}
+.center_order{background: #fff;}
+
+.center_zican{background: #fff;margin-top: 0.5rem;}
+.zican_list{overflow: hidden;}
+.zican_list .lt{float: left;text-align: center;width: 25%;padding:0.5rem 0;font-size:12px;color: #666;line-height:1.2rem;}
+.zican_list .lt_text{color:#f23030;height:1.1rem;}
+.zican_list image{width: 1.1rem;height: 1.1rem;}
+.center_tools{background: #fff;margin:0.5rem 0;}
+
+.tools_list{overflow:hidden;}
+.tools_list .lt{float: left;text-align: center;color: #666;font-size: 0.65rem;width:25%;line-height:1.2rem;padding:0.6rem 0;border-bottom:1px solid #f0f2f5;}
+.tools_list .lt image{width: 1.6rem;height: 1.6rem;}
+
+.order_list{overflow: hidden;padding:0.75rem 0 0.5rem;font-size:0.65rem;}
+.order_list .lt{float: left;width:20%;text-align: center;color: #575757;}
+.order_list .lt image{display: block;width:1.2rem;height: 1.2rem;margin:0 auto 0.3rem;}
+.order_list .lt_imt{position: relative;}
+.order_list .lt_imt text{display:block;position: absolute;right:0.8rem;top:-0.3rem;background:#f23030;border-radius:50%;width:0.9rem;height:0.9rem;color: #fff;font-size:10px;text-align: center;line-height:0.9rem;}
+
+
+
+

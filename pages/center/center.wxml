@@ -1,0 +1,141 @@
+<!--pages/center/center.wxml-->
+<!--头部-->
+<view class='center_title'>
+  <view class='title_imt'><image src="/images/member-top-bg.png" class="" /></view>
+  <view class='title_user'>
+    <image src="/images/my.png" class="user_imt" />
+    <view class='user_info'>
+      <view class='user_info_name'>xxxxxx</view>
+      <view class='user_info_sta'>注册会员</view>
+    </view>
+  </view>
+  <view class='btn_set'><navigator url='../userSet/userSet'><image src="/images/member_set_icon.png"></image></navigator></view>
+  <view class='btn_message'><navigator><image src="/images/message_icon.png"></image></navigator></view>
+</view>
+<!--我的订单-->
+<view class='center_order'>
+  <view class='center_top'>
+    <view class='top_name'>我的订单</view>
+    <view class='top_more'><navigator url='../myorder/myorder'>查看全部订单<image src='/images/user_right.png'></image></navigator></view>
+  </view>
+  <view class='order_list'>
+    <view class='lt'>
+      <navigator url='../orderList/orderList'>
+        <view class='lt_imt'><image src='/images/icon1.jpg'></image><text>1</text></view>
+        <view class='lt_name'>待付款</view>
+      </navigator>
+    </view>
+    <view class='lt'>
+      <navigator url='../orderList/orderList'>
+        <view class='lt_imt'><image src='/images/icon2.jpg'></image></view>
+        <view class='lt_name'>待发货</view>
+      </navigator>
+    </view>
+    <view class='lt'>
+      <navigator url='../orderList/orderList'>
+        <view class='lt_imt'><image src='/images/icon3.jpg'></image></view>
+        <view class='lt_name'>待收货</view>
+      </navigator>
+    </view>
+    <view class='lt'>
+      <navigator url='../orderList/orderList'>
+        <view class='lt_imt'><image src='/images/icon4.jpg'></image></view>
+        <view class='lt_name'>待评价</view>
+      </navigator>
+    </view>
+    <view class='lt'>
+      <navigator url='../orderList/orderList'>
+        <view class='lt_imt'><image src='/images/icon5.jpg'></image></view>
+        <view class='lt_name'>退款/售后</view>
+      </navigator>
+    </view>
+  </view>
+</view>
+<!--我的资产-->
+<view class='center_zican'>
+  <view class='center_top'>
+    <view class='top_name'>我的资产</view>
+  </view>
+  <view class='zican_list'>
+    <view class='lt'><navigator url=''>
+      <view class='lt_text'><text class='momey'>0</text>元</view>
+      <view class='lt_dem'>余额</view>
+    </navigator></view>
+    <view class='lt'><navigator url=''>
+      <view class='lt_text'><text class='num'>0</text></view>
+      <view class='lt_dem'>积分</view>
+    </navigator></view>
+    <view class='lt'><navigator url=''>
+      <view class='lt_text'><text class='red'>0</text></view>
+      <view class='lt_dem'>红包</view>
+    </navigator></view>
+    <view class='lt'><navigator url=''>
+      <view class='lt_text'><image src="/images/btn_payment.png"></image></view>
+      <view class='lt_dem'>付款</view>
+    </navigator></view>
+  </view>
+</view>
+<!--我的工具箱-->
+<view class='center_tools'>
+  <view class='center_top'>
+    <view class='top_name'>我的工具箱</view>
+  </view>
+  <view class='tools_list'>
+    <view class='lt'><navigator url=''>
+      <image src="/images/btn_membership_card.png" />
+      <view class='lt_text'>我的权益</view>
+    </navigator></view>
+    <view class='lt'><navigator url=''>
+      <image src="/images/btn_history_record.png" />
+      <view class='lt_text'>我的足迹</view>
+    </navigator></view>
+    <view class='lt'><navigator url=''>
+      <image src="/images/btn_goods_collection.png" />
+      <view class='lt_text'>我的收藏</view>
+    </navigator></view>
+    <view class='lt'><navigator url=''>
+      <image src="/images/btn_groupon.png" />
+      <view class='lt_text'>我的拼团</view>
+    </navigator></view>
+    <view class='lt'><navigator url=''>
+      <image src="/images/btn_stored_value_card.png" />
+      <view class='lt_text'>我的储值卡</view>
+    </navigator></view>
+    <view class='lt'><navigator url=''>
+      <image src="/images/btn_gift_card.png" />
+      <view class='lt_text'>我的提货券</view>
+    </navigator></view>
+    <view class='lt'><navigator url=''>
+      <image src="/images/btn_user_buylist.png" />
+      <view class='lt_text'>常购清单</view>
+    </navigator></view>
+    <view class='lt'><navigator url='../addressManageList/addManageList'>
+      <image src="/images/btn_consignee_address.png" />
+      <view class='lt_text'>收货地址</view>
+    </navigator></view>
+    <view class='lt'><navigator url=''>
+      <image src="/images/btn_review.png" />
+      <view class='lt_text'>我的评价</view>
+    </navigator></view>
+    <view class='lt'><navigator url=''>
+      <image src="/images/btn_user_info.png" />
+      <view class='lt_text'>个人资料</view>
+    </navigator></view>
+    <view class='lt'><navigator url=''>
+      <image src="/images/btn_account_safe.png" />
+      <view class='lt_text'>账户安全</view>
+    </navigator></view>
+    <view class='lt'><navigator url=''>
+      <image src="/images/btn_bargain.png" />
+      <view class='lt_text'>我的砍价</view>
+    </navigator></view>
+    <view class='lt'><navigator url=''>
+      <image src="/images/btn_bussiness_settled.png" />
+      <view class='lt_text'>商家入驻</view>
+    </navigator></view>
+    <view class='lt'><navigator url=''>
+      <image src="/images/btn_user_recommend.png" />
+      <view class='lt_text'>推荐店铺</view>
+    </navigator></view>
+  </view>
+</view>

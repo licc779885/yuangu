@@ -1,0 +1,86 @@
+<view class="order_list">
+  <view class='order_list_search'>
+    <form class='search_form'>
+      <input type='text' placeholder='输入商品标题或订单号' placeholder-style='color:#999' /><button class='btn_search'><image src='/images/icon_search.jpg'></image></button>
+    </form>
+  </view>
+  <view class='order_list_menu'>
+    <view class='lt active'>全部(<text class='num'>1</text>)</view>
+    <view class='lt'>待付款(<text class='num'>1</text>)</view>
+    <view class='lt'>待发货(<text class='num'>1</text>)</view>
+    <view class='lt'>待收货(<text class='num'>1</text>)</view>
+    <view class='lt'>待评价(<text class='num'>1</text>)</view>
+  </view>
+  <view class='order_list_lt'>
+    <view class='title ov'>
+      <view class='fl'><checkbox /><label id='cc_imt' style='background-image:url(../../images/tab_shop_seller.png);background-size:1.2rem;padding-left:1.3rem;background-repeat: no-repeat;'></label>圆古茶业</view>
+      <view class='fr cf2'>等待买家付款</view>
+    </view>
+    <view class='list'>
+      <view class='list_lt'>
+        <navigator class='lt_url' url=''>
+          <view class='llt_fl'><image mode="widthFix" src='/images/img_m4.jpg'></image></view>
+          <view class='llt_fr'>
+            <view class='llr_text'>产品名称产品名称产品名称产品名称产品名称产品名称</view>
+            <view class='llr_dom'>
+              <view class='dom_vule'>￥399</view>
+              <view class='dom_num'>x1</view>
+            </view>
+          </view>
+        </navigator>
+      </view>
+      <view class='list_lt'>
+        <navigator class='lt_url' url=''>
+          <view class='llt_fl'><image mode="widthFix" src='/images/img_m5.jpg'></image></view>
+          <view class='llt_fr'>
+            <view class='llr_text'>产品名称产品名称产品名称产品名称产品名称产品名称</view>
+            <view class='llr_dom'>
+              <view class='dom_vule'>￥399</view>
+              <view class='dom_num'>x1</view>
+            </view>
+          </view>
+        </navigator>
+      </view>
+    </view>
+    <view class='dom'>
+       <view class='dom_all'>
+         共<text class='num'>3</text>件商品 总金额:<text class='cf2'>￥1119.00</text>代付款<text class='cf2'>￥1119.00</text><text class='by'>(包邮)</text>
+       </view>
+       <view class='dom_caozuo'>
+         <button class='btn_quxiao active' bindtap='showtanc'>取消订单</button>
+         <button class='btn_pay'>立即付款</button>
+         <button class='btn_other'>朋友代付</button>
+       </view>
+    </view>
+    <view class='none'><image mode="widthFix" src='/images/bg_bottom_nomore.png'></image></view>
+  </view>
+  <view class='order_list_dom ov'>
+    <view class='fl'><label><checkbox />全选</label></view>
+    <view class='fr'><button type='default' class='btn_delete'>批量删除订单</button></view>
+  </view>
+</view>
+<!--取消订单弹窗  -->
+<view class='tanc_cancel' wx:if="{{tanc_show}}">
+  <view class='tanc_beij'></view>
+  <view class='tanc_text'>
+    <view class='tanc_title'>请选择取消订单的理由</view>
+    <!--  -->
+    <scroll-view scroll-y style="height:520rpx;">
+      <view class='lt'>我不想买了</view>
+      <view class='lt'>信息填写错误，重新拍</view>
+      <view class='lt'>卖家缺货</view>
+      <view class='lt'>同城见面交易</view>
+      <view class='lt'>付款遇到问题</view>
+      <view class='lt'>我不想买了</view>
+      <view class='lt'>信息填写错误，重新拍</view>
+      <view class='lt'>卖家缺货</view>
+      <view class='lt'>同城见面交易</view>
+      <view class='lt'>付款遇到问题</view>
+    </scroll-view>
+    <view class='tanc_btn'>
+      <button class='btn btn_cancel' size='default' type='default' bindtap='hidetanc'>取消</button>
+      <button class='btn brn_ok' size='default' type='warn' bindtap='hidetanc'>确定</button>
+    </view>
+    <!--  -->
+  </view>
+</view>

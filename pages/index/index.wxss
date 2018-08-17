@@ -1,0 +1,51 @@
+/**index.wxss**/
+page{background: #f3f5f7}
+.swiper swiper{height:9.7rem;}
+.swiper image{display: block;width: 100%}
+.navList,.fenList{overflow: hidden;padding:0.5rem 0 0.6rem;background: #fff;}
+.nav_list,.fen_list{float: left;width: 25%;text-align: center;font-size:13px;}
+.nav_list image,.fen_list image{display: block;width:2.5rem;height:2.5rem;margin:0 auto 5px;}
+.fenList{margin:0.5rem 0 0;padding:0.4rem 0 0;}
+.fen_list{width: 20%;margin-bottom:0.4rem;}
+.fen_list image{width: 2.0rem;height: 2.0rem;}
+.pinp_list{background: #fff;margin-top: 0.5rem;padding:0 0 0.5rem;}
+.pinp_list swiper{height:11.6rem;}
+.pinp_title image{display: block;width: 100%;height:3.0rem;}
+.pinp_imt{background: #f3f5f7;padding:0 0.4rem 0.3rem;}
+.pinp_imt image{display: block;width: 100%;height:8.0rem;}
+.pinp_list .swiper_list{width: 29.33%;float: left;font-size:12px;padding:0.4rem 2%;}
+.pinp_list .swiper_list navigator{display: block;width:100%;margin: 0 auto;}
+.pinp_list .swiper_list image{display: block;width:100%;height:4.5rem;margin: 0 auto;}
+.pinp_list .swiper_list .text{margin:0.4rem 0 0;height:1.9rem;overflow: hidden;}
+.pinp_list .swiper_list .price{color: #f23030;}
+.guessList{margin-top: 0.5rem;}
+.guess_content{overflow: hidden;padding:0 0 0 2%;}
+.guess_list{width: 48%;float: left;margin:0 2% 0.3rem 0;background: #fff;padding-bottom: 0.6rem;}
+.guess_list image{display: block;width: 100%;height:9.0rem;}
+.guess_list .text{height: 1.8rem;padding:0.3rem 0.4rem;font-size:0.65rem;}
+.guess_list .price{padding:0 0.4rem;color: #f23030;font-size:0.7rem;}
+.guess_not image{display: block;width: 100%;height:5.0rem;}
+
+.swiper-box .wx-swiper-dots.wx-swiper-dots-horizontal{margin-bottom: -0.5rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

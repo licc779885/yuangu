@@ -1,0 +1,36 @@
+/* pages/cart/cart.wxss */
+page{background: #EEF2F3;padding-bottom:2.5rem;}
+.cart_none{width: 90%;margin:3rem auto 0;text-align:center;color: #999;font-size:12px;}
+.cart_none_text{line-height:1.4rem;}
+.ct_title{font-size:13px;color: #777;}
+.cart_none_imt image{display: block;width:6.0rem;height:6.0rem;margin:0 auto;}
+.cart_none_btn{width: 6rem;height: 1.5rem;margin: 0 auto;font-size: 0.7rem;color: #fff;line-height: 1.5rem;border-radius: 0.15rem;background: #f23030;margin-top: 0.7rem;}
+
+.cart_list{margin-top: 0.5rem;}
+.cart_list .list_title{position: relative;padding-left:3.2rem;height:2.2rem;line-height:2.2rem;background: #f8f8f8;font-size:0.7rem;}
+.cart_list .list_title .t1{width:0.9rem;height: 0.9rem;position:absolute;left:2.0rem;top: 50%;margin-top: -0.45rem;}
+/* .check{background-image: url("images/cart_icon_con.png");background-size:100% 100%;  background-repeat:no-repeat;} */
+.check_all{position: absolute;left:0.5rem;top: 0;}
+.list_lt .lt{padding:0.6rem 0.4rem 0.3rem;margin-bottom: 1px;background: #fff;position: relative}
+.list_lt .lt .check{position: absolute;top: 2.0rem;left:0.5rem;}
+.list_lt .lt .lt_content{margin-left:2.0rem;}
+.list_lt .lt_top{overflow: hidden;}
+.list_lt .lt_imt{float: left;width:4.2rem;height:4.2rem;margin-right: 0.5rem;}
+.list_lt .lt_imt image{width:4.2rem;height:4.2rem;}
+.list_lt .name{height:2.2rem;line-height:1.0rem;overflow: hidden;font-size:0.7rem;color: #222;}
+.list_lt .price{margin-top:1.0rem;color: #f23030;font-size:0.9rem;}
+.lt_dom{overflow: hidden;margin-top: 0.5rem;}
+.lt_dom .ld_remove{float: left;}
+.lt_dom .ld_remove image{width:1.3rem;height:1.3rem;margin-left: -0.2rem;}
+.lt_dom .ld_caoz{width: 6.0rem;float: right;text-align: right}
+.lt_dom .ld_caoz button{width:1.3rem;height:1.3rem;display: inline-block;text-align: center;line-height: 1.3rem;padding:0;}
+.lt_dom .ld_caoz .num{width:1.6rem;display: inline-block;text-align: center;font-size: 0.8rem;margin:0 0.2rem;}
+.cart_foot{overflow: hidden;background: #fff;height: 2.3rem;line-height: 2.3rem;font-size: 0.8rem;position: fixed;left: 0;bottom:0;width: 100%;}
+.foot_fl{float: left;padding-left: 0.5rem;}
+.foot_fr{float: right;}
+.foot_fr .money{display: inline-block;vertical-align:top;padding-right: 0.6rem;color: #f23030;font-weight: bold;}
+.foot_fr .btn_buy{display: inline-block;height: 2.3rem;line-height: 2.3rem;width:5.0rem;font-size:0.8rem;border-radius:0;background: #f23030;color: #fff;letter-spacing:2px;}
+
+
+
+

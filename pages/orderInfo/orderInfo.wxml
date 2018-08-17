@@ -1,0 +1,65 @@
+<view class="orderInfo">
+  <view class='order_act'>
+    <view class='act_top ov'>
+      <view class='fl'><image src='/images/icon7.jpg' />交易状态</view>
+      <view class='fr cf2'>商品已拍下，等待买家f付款</view>
+    </view>
+    <view class='act_dom'>
+      <view class='act_dom_weix'><image src='/images/weix.jpg' /></view>
+      <view class='act_dom_num'>订单编号：<text class='num'>20180514123457962000</text></view>
+      <view class='act_dom_tis'>可截屏保存二维码出示给商家</view>
+    </view>
+  </view>
+  <view class='order_djs'>
+    <image src='/images/icon8.jpg' />还有<text class='djs_time cf2'>00天23小时59分01秒</text>来付款,超时订单将自动关闭
+  </view>
+  <view class='order_list_top'>
+    <view class='top mt'>
+      <text class='top_name'>客户名称</text>
+      <text class='top_phone'>159****0675</text>
+    </view>
+    <view class='address mt'>
+      <image src='/images/icon_address.jpg' mode="widthFix"></image>
+      <text class='address_title'>收货地址：</text>
+      <text class='address_info'>详细收货地址详细收货地址详细</text>
+    </view>
+    <view class='imb'><image src='/images/user_right.png'></image></view>
+    <view class='imt'><image src='/images/img5.jpg'></image></view>
+  </view>
+  <view class='order_list_lt'>
+    <view class='title'>待发货商品</view>
+    <view class='list'>
+      <view class='list_lt'>
+        <navigator class='lt_url' url=''>
+          <view class='llt_fl'><image mode="widthFix" src='/images/img_m4.jpg'></image></view>
+          <view class='llt_fr'>
+            <view class='llr_text'>产品名称产品名称产品名称产品名称产品名称产品名称</view>
+            <view class='llr_dom'>
+              <view class='dom_vule'>￥399</view>
+              <view class='dom_num'>x1</view>
+            </view>
+          </view>
+        </navigator>
+      </view>
+      <view class='list_lt'>
+        <navigator class='lt_url' url=''>
+          <view class='llt_fl'><image mode="widthFix" src='/images/img_m5.jpg'></image></view>
+          <view class='llt_fr'>
+            <view class='llr_text'>产品名称产品名称产品名称产品名称产品名称产品名称</view>
+            <view class='llr_dom'>
+              <view class='dom_vule'>￥399</view>
+              <view class='dom_num'>x1</view>
+            </view>
+          </view>
+        </navigator>
+      </view>
+    </view> 
+  </view>
+  <view class='order_caozuo'>
+    <view class='dom_caozuo'>
+      <button class='btn_quxiao active'>取消订单</button>
+      <button class='btn_pay'>立即付款</button>
+      <button class='btn_other'>朋友代付</button>
+    </view>
+  </view>
+</view>

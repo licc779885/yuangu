@@ -1,0 +1,15 @@
+.tab-h{height:85rpx;width: 100%; box-sizing: border-box;overflow: hidden;line-height: 85rpx;background: #F7F7F7; font-size: 0.93rem; white-space: nowrap;position: fixed;top: 0; left: 0; z-index: 99;}
+.listText{text-align: center;font-size: 0.85rem;margin-top:5%;}
+.tab-item{margin:0 30rpx;display: inline-block;}
+.tab-item.active{color: #ff0000;position: relative;}
+.tab-item.active:after{ content: "";display: block;height:4rpx;width:100%;background: #ff0000;position: absolute; bottom: 0;left:0;}
+.item-ans{width:47%;float: left;margin:3% 0 0 2%;overflow: hidden;}
+.avatar{width:100%;}
+.avatar .img{width:100%;}
+/* .avatar .doyen{width: 40rpx;height: 40rpx;position: absolute;bottom: -2px;right: 20rpx;} */
+/* .expertInfo{font-size: 12px;flex-grow: 2;color: #B0B0B0;line-height: 1.5em;} */
+.expertInfo .name{font-size:0.75rem;margin:0.2rem 0;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.expertInfo .tag{font-weight: bold;font-size: 0.77rem;}
+ .askBtn{ width: 120rpx;height: 60rpx;line-height: 60rpx;text-align: center;font-size: 14px; border-radius: 60rpx;border: 1px solid #4675F9; color:#4675F9;}
+.tab-content{margin-top: 80rpx;height: 29.8rem;}
+.scoll-h{height: 100%;} 

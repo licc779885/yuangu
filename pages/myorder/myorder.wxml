@@ -1,0 +1,58 @@
+<view class="order_list">
+  <view class='order_list_top'>
+    <view class='top mt'>
+      <text class='top_name'>客户名称</text>
+      <text class='top_phone'>159****0675</text>
+    </view>
+    <view class='address mt'>
+      <image src='/images/icon_address.jpg'></image>
+      <text class='address_title'>收货地址：</text>
+      <text class='address_info'>详细收货地址详细收货地址详细</text>
+    </view>
+    <view class='imb'><image src='/images/user_right.png'></image></view>
+    <view class='imt'><image src='/images/img5.jpg'></image></view>
+  </view>
+  <view class='order_list_lt'>
+    <view class='title'><image src='/images/tab_shop_seller.png'></image>圆古茶业</view>
+    <view class='list'>
+      <view class='list_lt'>
+        <navigator class='lt_url' url=''>
+          <view class='llt_fl'><image mode="widthFix" src='/images/img_m4.jpg'></image></view>
+          <view class='llt_fr'>
+            <view class='llr_text'>产品名称产品名称产品名称产品名称产品名称产品名称</view>
+            <view class='llr_dom'>
+              <view class='dom_vule'>￥399</view>
+              <view class='dom_num'>x1</view>
+            </view>
+          </view>
+        </navigator>
+      </view>
+      <view class='list_lt'>
+        <navigator class='lt_url' url=''>
+          <view class='llt_fl'><image mode="widthFix" src='/images/img_m5.jpg'></image></view>
+          <view class='llt_fr'>
+            <view class='llr_text'>产品名称产品名称产品名称产品名称产品名称产品名称</view>
+            <view class='llr_dom'>
+              <view class='dom_vule'>￥399</view>
+              <view class='dom_num'>x1</view>
+            </view>
+          </view>
+        </navigator>
+      </view>
+    </view>
+    <view class='dom'>
+      <view class='dom_courier'>
+        <view class='courier_top ov'>
+          <view class='ct_name fl'>配送方式</view>
+          <view class='ct_way fr'>普通快递</view>
+        </view>
+        <view class='courier_dom'>普通快递<text class='cd_money'>￥0</text></view>
+      </view>
+      <view class='dom_text ov'><text class='fl'>买家留言：</text><textarea class='fr' placeholder="选填，可填写您与卖家达成一致要求" placeholder-style="color:#a9a9a9;" /></view>
+      <view class='dom_sum'>店铺合计（含运费）：<text class='sum_money'>￥111</text></view>
+    </view>
+  </view>
+  <view class='order_list_dom'>
+    <view class='ld_sum'>应付款：<text class='sum_money'>￥111</text><text class='btn_sum'>确认交易</text></view>
+  </view>
+</view>

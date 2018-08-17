@@ -1,0 +1,274 @@
+<view class="swiper">
+  <swiper indicator-dots="true" indicator-color="rgba(255, 255, 255, 1.0)" indicator-active-color="#ff0000" circular="true" autoplay="true" interval="5000" duration="500">
+    <swiper-item>
+        <image mode="widthFix" src="/images/banner1.jpg" class="slide-image" />
+    </swiper-item>
+    <swiper-item>
+        <image mode="widthFix" src="/images/banner2.jpg" class="slide-image" />
+    </swiper-item>
+    <swiper-item>
+        <image mode="widthFix" src="/images/banner1.jpg" class="slide-image" />
+    </swiper-item>
+  </swiper>
+</view>
+<!--头部分类-->
+<view class='navList'>
+  <view class='nav_list'>
+    <navigator url="">
+      <image mode="widthFix" src='/images/icont1.png' />
+      <view>分类</view>
+    </navigator>
+  </view>
+  <view class='nav_list'>
+    <navigator url="">
+      <image mode="widthFix" src='/images/icont2.png' />
+      <view>店铺街</view>
+    </navigator>
+  </view>
+  <view class='nav_list'>
+    <navigator url="">
+      <image mode="widthFix" src='/images/icont3.png' />
+      <view>团购</view>
+    </navigator>
+  </view>
+  <view class='nav_list'>
+    <navigator url="">
+      <image mode="widthFix" src='/images/icont4.png' />
+      <view>积分商城</view>
+    </navigator>
+  </view>
+</view>
+<!--分类2-->
+<view class='fenList'>
+  <view class='fen_list'>
+      <navigator url=''>
+        <image mode="widthFix" src='/images/icon1.png' />
+        <view>黑茶</view>
+      </navigator>
+  </view>
+  <view class='fen_list'>
+      <navigator url=''>
+        <image mode="widthFix" src='/images/icon2.png' />
+        <view>黑茶</view>
+      </navigator>
+  </view>
+  <view class='fen_list'>
+      <navigator url=''>
+        <image mode="widthFix" src='/images/icon3.png' />
+        <view>黑茶</view>
+      </navigator>
+  </view>
+  <view class='fen_list'>
+      <navigator url=''>
+        <image mode="widthFix" src='/images/icon4.png' />
+        <view>黑茶</view>
+      </navigator>
+  </view>
+  <view class='fen_list'>
+      <navigator url=''>
+        <image mode="widthFix" src='/images/icon5.png' />
+        <view>黑茶</view>
+      </navigator>
+  </view>
+  <view class='fen_list'>
+      <navigator url=''>
+        <image mode="widthFix" src='/images/icon6.png' />
+        <view>黑茶</view>
+      </navigator>
+  </view>
+</view>
+<!--品牌分类-->
+<view class='pinpList'>
+  <view class='pinp_list'>
+    <view class='pinp_title'><image mode="widthFix" src='/images/title1.jpg' /></view>
+    <view class='pinp_imt'><image mode="widthFix" src='/images/img1.jpg' /></view>
+    <view class='pinp_swiper'>
+       <swiper class='swiper-box' indicator-dots="true" indicator-color="rgba(0, 0,0, 0.3)" indicator-active-color="#ff0000" circular="true" autoplay="false">
+        <swiper-item>
+          <view class='swiper_list'>
+             <navigator>
+                <image mode="widthFix" src='/images/img_m3.jpg' />
+                <view class='text'>压箱底·普洱素砖 经典版(4砖) 生茶哦</view>
+                <view class='price'>¥1980.00</view>
+             </navigator>
+          </view>
+          <view class='swiper_list'>
+             <navigator>
+                <image mode="widthFix" src='/images/img_m4.jpg' />
+                <view class='text'>压箱底·普洱素砖 经典版(4砖) 生茶哦</view>
+                <view class='price'>¥1980.00</view>
+             </navigator>
+          </view>
+          <view class='swiper_list'>
+             <navigator>
+                <image mode="widthFix" src='/images/img_m5.jpg' />
+                <view class='text'>压箱底·普洱素砖 经典版(4砖) 生茶哦</view>
+                <view class='price'>¥1980.00</view>
+             </navigator>
+          </view>
+        </swiper-item>
+        <swiper-item>
+          <view class='swiper_list'>
+             <navigator>
+                <image mode="widthFix" src='/images/img_m1.jpg' />
+                <view class='text'>压箱底·普洱素砖 经典版(4砖) 生茶哦</view>
+                <view class='price'>¥1980.00</view>
+             </navigator>
+          </view>
+          <view class='swiper_list'>
+             <navigator>
+                <image mode="widthFix" src='/images/img_m2.jpg' />
+                <view class='text'>压箱底·普洱素砖 经典版(4砖) 生茶哦</view>
+                <view class='price'>¥1980.00</view>
+             </navigator>
+          </view>
+          <view class='swiper_list'>
+             <navigator>
+                <image mode="widthFix" src='/images/img_m3.jpg' />
+                <view class='text'>压箱底·普洱素砖 经典版(4砖) 生茶哦</view>
+                <view class='price'>¥1980.00</view>
+             </navigator>
+          </view>
+        </swiper-item>
+        <swiper-item>
+          <view class='swiper_list'>
+             <navigator>
+                <image mode="widthFix" src='/images/img_m3.jpg' />
+                <view class='text'>压箱底·普洱素砖 经典版(4砖) 生茶哦</view>
+                <view class='price'>¥1980.00</view>
+             </navigator>
+          </view>
+          <view class='swiper_list'>
+             <navigator>
+                <image mode="widthFix" src='/images/img_m2.jpg' />
+                <view class='text'>压箱底·普洱素砖 经典版(4砖) 生茶哦</view>
+                <view class='price'>¥1980.00</view>
+             </navigator>
+          </view>
+          <view class='swiper_list'>
+             <navigator>
+                <image mode="widthFix" src='/images/img_m1.jpg' />
+                <view class='text'>压箱底·普洱素砖 经典版(4砖) 生茶哦</view>
+                <view class='price'>¥1980.00</view>
+             </navigator>
+          </view>
+        </swiper-item>
+       </swiper>
+    </view>
+  </view>
+  
+  <view class='pinp_list'>
+    <view class='pinp_title'><image mode="widthFix" src='/images/title2.jpg' /></view>
+    <view class='pinp_imt'><image mode="widthFix" src='/images/img2.jpg' /></view>
+    <view class='pinp_swiper'>
+       <swiper class='swiper-box' indicator-dots="true" indicator-color="rgba(0, 0,0, 0.3)" indicator-active-color="#ff0000" circular="true" autoplay="false">
+        <swiper-item>
+          <view class='swiper_list'>
+             <navigator>
+                <image mode="widthFix" src='/images/img_m3.jpg' />
+                <view class='text'>压箱底·普洱素砖 经典版(4砖) 生茶哦</view>
+                <view class='price'>¥1980.00</view>
+             </navigator>
+          </view>
+          <view class='swiper_list'>
+             <navigator>
+                <image mode="widthFix" src='/images/img_m2.jpg' />
+                <view class='text'>压箱底·普洱素砖 经典版(4砖) 生茶哦</view>
+                <view class='price'>¥1980.00</view>
+             </navigator>
+          </view>
+          <view class='swiper_list'>
+             <navigator>
+                <image mode="widthFix" src='/images/img_m1.jpg' />
+                <view class='text'>压箱底·普洱素砖 经典版(4砖) 生茶哦</view>
+                <view class='price'>¥1980.00</view>
+             </navigator>
+          </view>
+        </swiper-item>
+        <swiper-item>
+          <view class='swiper_list'>
+             <navigator>
+                <image mode="widthFix" src='/images/img_m3.jpg' />
+                <view class='text'>压箱底·普洱素砖 经典版(4砖) 生茶哦</view>
+                <view class='price'>¥1980.00</view>
+             </navigator>
+          </view>
+          <view class='swiper_list'>
+             <navigator>
+                <image mode="widthFix" src='/images/img_m4.jpg' />
+                <view class='text'>压箱底·普洱素砖 经典版(4砖) 生茶哦</view>
+                <view class='price'>¥1980.00</view>
+             </navigator>
+          </view>
+          <view class='swiper_list'>
+             <navigator>
+                <image mode="widthFix" src='/images/img_m5.jpg' />
+                <view class='text'>压箱底·普洱素砖 经典版(4砖) 生茶哦</view>
+                <view class='price'>¥1980.00</view>
+             </navigator>
+          </view>
+        </swiper-item>
+        <swiper-item>
+          <view class='swiper_list'>
+             <navigator>
+                <image mode="widthFix" src='/images/img_m3.jpg' />
+                <view class='text'>压箱底·普洱素砖 经典版(4砖) 生茶哦</view>
+                <view class='price'>¥1980.00</view>
+             </navigator>
+          </view>
+          <view class='swiper_list'>
+             <navigator>
+                <image mode="widthFix" src='/images/img_m2.jpg' />
+                <view class='text'>压箱底·普洱素砖 经典版(4砖) 生茶哦</view>
+                <view class='price'>¥1980.00</view>
+             </navigator>
+          </view>
+          <view class='swiper_list'>
+             <navigator>
+                <image mode="widthFix" src='/images/img_m1.jpg' />
+                <view class='text'>压箱底·普洱素砖 经典版(4砖) 生茶哦</view>
+                <view class='price'>¥1980.00</view>
+             </navigator>
+          </view>
+        </swiper-item>
+       </swiper>
+    </view>
+  </view>
+</view>
+<!--猜你喜欢-->
+<view class='guessList'>
+  <view class='pinp_title'><image mode="widthFix" src='/images/title2.jpg' /></view>
+  <view class='guess_content'>
+     <view class='guess_list'>
+        <navigator url=''>
+          <image mode="widthFix" src='/images/img_m1.jpg' />
+          <view class='text'>压箱底·普洱素砖 经典版(4砖) 生茶哦</view>
+          <view class='price'>¥1980.00</view>
+        </navigator>
+     </view>
+     <view class='guess_list'>
+        <navigator url=''>
+          <image mode="widthFix" src='/images/img_m1.jpg' />
+          <view class='text'>压箱底·普洱素砖 经典版(4砖) 生茶哦</view>
+          <view class='price'>¥1980.00</view>
+        </navigator>
+     </view>
+     <view class='guess_list'>
+        <navigator url=''>
+          <image mode="widthFix" src='/images/img_m1.jpg' />
+          <view class='text'>压箱底·普洱素砖 经典版(4砖) 生茶哦</view>
+          <view class='price'>¥1980.00</view>
+        </navigator>
+     </view>
+     <view class='guess_list'>
+        <navigator url=''>
+          <image mode="widthFix" src='/images/img_m1.jpg' />
+          <view class='text'>压箱底·普洱素砖 经典版(4砖) 生茶哦</view>
+          <view class='price'>¥1980.00</view>
+        </navigator>
+     </view>
+     <view class='guess_not'><image mode="widthFix" src='/images/bg_bottom_nomore.png' /></view>
+  </view>
+</view>
+
+

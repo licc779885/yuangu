@@ -1,0 +1,47 @@
+<view class="userSet">
+  <view class='user_lt bg'>
+    <view class='user_phone ov' bindtap="bindChangeImg">
+      <view class='phone_name fl'>头像</view>
+      <view class='phone_imt fr'><image src="{{tempFilePaths}}" /></view>
+    </view>
+    <view class='user_name ov'>
+      <view class='name_title fl'>用户名</view>
+      <view class='name_text fr'>SYZ159FSMR0675</view>
+    </view>
+    <view class='user_niname ov'>
+      <view class='niname_title fl'>昵称</view>
+      <view class='niname_text fr'>SYZ159FSMR0675</view>
+    </view>
+    <view class='user_sex ov'>
+      <picker class='picker_sex' mode="selector" value="{{index}}" range="{{sex}}" bindchange="changeSex">
+        <view class='sex_title fl'>性别</view>
+        <view class='sex_text fr'>{{sex[stnum]}}</view>
+      </picker>
+    </view>
+    <!-- <view class='user_time ov' bindtap="bindTime">
+      <view class='time_title fl'>出生日期</view>
+      <view class="time_text fr">{{year}}-{{month}}-{{day}}</view>
+    </view> -->
+    <view class="user_time ov">
+      <picker mode="date" value="{{date}}" start="1950-01-01" end="data"  bindchange="bindDateChange">
+        <view class="time_title fl">出生日期</view>
+        <view class="time_text fr">{{date}}</view>
+      </picker>
+    </view>
+
+  </view>
+  <!--实名认证-->
+  <view class='user_shiming ov bg'>
+    <navigator url=''>
+      <view class='shiming_title'>实名认证</view>
+    </navigator>
+  </view>
+  <!--修改密码-->
+  <view class='user_password ov bg'>
+     <navigator url='../setPassword/setPassword'>
+       <view class='password_title'>修改密码</view>
+     </navigator>
+  </view>
+</view>
+<!--  -->
+

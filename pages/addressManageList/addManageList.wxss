@@ -1,0 +1,27 @@
+page{background:#f0f2f5;font-size: 0.8rem;padding-bottom:2.7rem;color: #222;}
+.ov{overflow: hidden;}
+.fl{float: left;}
+.fr{float: right;}
+.cf2{color: #f23030;}
+.c99{color: #999;}
+.bg{background: #fff;}
+.user_shiming{margin:0.5rem 0;}
+.userSet input{min-width:13.5rem;}
+.userSet .ov{border-top:1px solid #f2f2f2;padding:0.6rem;position: relative;}
+.userSet .wt{width:4.0rem;}
+.userSet .fr{color: #999;font-size: 0.75rem;}
+.userSet .ipt{margin-top:-0.1rem;}
+/* .address_ipt{color: #999;} */
+.address_ipt image{width:0.8rem;vertical-align: middle;margin:-0.15rem 0.3rem 0 0;}
+.userSet .user_name.ov{padding-right:1.0rem;}
+.userSet .user_name.ov::after{display: none;}
+.userSet .user_phone .phone_name{line-height:3.0rem;}
+.userSet .user_phone .phone_imt image{display:block;width: 3.0rem;height: 3.0rem;border-radius: 50%;}
+.userSet .user_sex .picker_sex{display: block;width: 100%;}
+.user_sex .sex_title{width:49%;}
+.user_sex .sex_text{width:49%;text-align: right;}
+.user_time .time_text{width:75%;text-align: right;}
+.add_sum{margin-top:0.6rem;text-align: center;}
+.add_sum button{display: inline-block;margin:0;padding: 0;width:45%;height:2.0rem;line-height: 2.0rem;font-size:0.8rem;}
+.add_sum .btn_sum{background: #f23030;color: #fff;margin-right:1%}
+.add_sum .btn_ret{background: #e5e5e5;color: #999;margin-left: 1%}

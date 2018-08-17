@@ -1,0 +1,21 @@
+page{background:#f3f5f7;font-size: 0.8rem;color: #222;}
+.ov{overflow: hidden;}
+.fl{float: left;}
+.fr{float: right;}
+.cf2{color: #f23030;}
+.c99{color: #999;}
+.bg{background: #fff;}
+.actList_top{height: 2.5rem;line-height: 2.5rem;border-top:1px solid #eee;border-bottom: 1px solid #eee;margin-bottom: 0.5rem;}
+.actList_top .lt{height: 2.5rem;width: 33.3%;text-align: center;left:30%;position: relative;float: left;}
+.actList_top navigator{display:block;height: 2.4rem;float: left;right: 50%;position: relative;}
+.actList_none{padding:0.8rem 0 0;text-align: center;color: #999;}
+.actList_none image{width:5.5rem;margin-bottom: 1.2rem;}
+.actList_top .lt.active navigator{border-bottom:2px solid #f23030;color: #f23030;}
+
+
+
+
+
+
+
+

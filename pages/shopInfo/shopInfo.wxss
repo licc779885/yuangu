@@ -1,0 +1,62 @@
+page{background: #f3f5f7;font-size:0.75rem;padding-bottom:45px;}
+.swiper swiper{height: 20.0rem;}
+.swiper .slide-image{display:block;width: 100%;}
+.shopName{padding:0.5rem 0.5rem 0.1rem;background: #fff;}
+.shopName .name{font-size:0.75rem;height: 40px;overflow: hidden;line-height: 20px;color: #222;-webkit-line-clamp: 2;-webkit-box-orient: vertical;display: -webkit-box;}
+.shopName .price{overflow: hidden;font-size: 0.65rem;line-height:30px;color: #999;}
+.shopName .nowPrices{float: left;}
+.shopName .nowPrices .nw{font-size:0.9rem;color:#f23030;}
+.shopName .nowPrices .nl{text-decoration:line-through;}
+.shopName .num{float: right;}
+.address{margin:0.5rem 0;background: #fff;padding:0.5rem 0.5rem 0.8rem;overflow: hidden;position: relative;}
+.address_text{float: left;margin-right:0.8rem;color: #999;}
+.pingjia{margin-bottom:0.5rem;padding:0.5rem;background: #fff;}
+.pingjia_title{overflow: hidden;line-height:1.2rem;}
+.pingjia_title .img{display:block;width:5.0rem;float: left;border: 1px solid #efefef;margin-right:0.8rem;}
+.pingjia_title .score{color: #999;}
+.pingjia_score{padding:0.8rem 0 0.5rem;color: #999;overflow: hidden;}
+.pingjia_score .scot{float: left;width: 33.3%;text-align: center;font-size: 12px;line-height: 20px;}
+.pingjia_score .scot .num{font-size:0.9rem;color: #333;}
+.pingjia_score .scot .text{margin-top:0.3rem;}
+.pingjia_score .score_num{border-left:1px solid #e3e5e9;border-right:1px solid #e3e5e9;margin:0 -1px 0 -1px;}
+.pingjia_score .score_text{margin-top:-0.5rem;}
+.pingjia_score .score_text .col{color:#f23030;padding-left:0.25rem;}
+.pingjia_btn{overflow: hidden;}
+.pingjia_btn .btn{width: 48%;height: 2.0rem;line-height: 2.0rem;text-align: center;float: left;border: 1px solid #d7d7d7;color:#666;border-radius: 4px;}
+.pingjia_btn .btn_collect{float: left;}
+.pingjia_btn .btn_goin{float: right;}
+.sale{background: #fff;margin-bottom:0.5rem;padding:0.5rem;}
+.sale_title,.shop_title{font-size:0.8rem;text-align: center;overflow: hidden;line-height:1.5rem;}
+.sale_title text,.shop_title text{display:block;width: 50%;float: left;}
+.sale_title text:first-child{border-right: 1px solid #e3e5e9;margin-left: -1px;}
+.sale_banner{padding:0.5rem 0;}
+.sale_banner swiper{height:11.5rem;}
+.sale_banner .swiper_list{width: 29.33%;float: left;font-size:12px;padding:0.4rem 2%;}
+.sale_banner .swiper_list navigator{display: block;width:100%;margin: 0 auto;}
+.sale_banner .swiper_list image{display: block;width:100%;height:4.5rem;margin: 0 auto;}
+.sale_banner .swiper_list .text{margin:0.4rem 0 0;height:1.9rem;overflow: hidden;}
+.sale_banner .swiper_list .price{color: #f23030;}
+.swiper-box .wx-swiper-dots.wx-swiper-dots-horizontal{margin-bottom: -0.5rem;}
+.shop{background: #fff;padding:0.8rem 0 0.5rem;}
+.shop_info{padding:0.3rem;}
+.shop_info image{display: block;width: 100%;}
+.shop_title{margin:0 0.8rem 0.5rem;font-size: 0.75rem;border:1px solid #d7d7d7;border-right:none;border-radius:6px;overflow: hidden;}
+.shop_title text{height:1.8rem;line-height:1.8rem;border-right:1px solid #d7d7d7;color: #666;margin-left: -1px;}
+.shop_foot{height:45px;background-color: rgba(243,245,249,0.9);border-top:1px solid #e3e5e9;overflow: hidden;position:fixed;left: 0;bottom:0;width: 100%;}
+.shop_foot .fl{float: left;text-align: center;color:#666;}
+.shop_foot .fl image{display: block;width:20px;height:20px;margin:0.2rem auto;}
+.shop_foot .btw{width:14%;font-size: 12px;}
+.shop_foot .btn{width:29%;font-size:0.8rem;line-height:45px;color:#fff;}
+.shop_foot .btn_shop,.shop_foot .btn_collect{margin-left: -1px;}
+.shop_foot .btn_shop,.shop_foot .btn_collect{border-right: 1px solid #eee;}
+.shop_foot .btn_cart{background: #FF9301;}
+.shop_foot .btn_buy{background:#f23030;}
+.red{color:#f23030;}
+.default{color:#333;}
+.show{display: block;}
+.hidden{display: none;}
+.bred{background:#f23030;color:#fff;border-color:#f23030;}
+text.bred{color: #fff}
+.b66{background: #fff;color:#666;}
+.shop_cansu image{display: block;margin:0 auto;}
+

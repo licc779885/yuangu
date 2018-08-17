@@ -1,0 +1,14 @@
+<view class="addressMag">
+  <view class='address_info bg'>
+    <view class='info_top'><text class='name'>客户名称</text><text class='phone'>12345678910</text></view>
+    <view class='info_text'>福建省厦门市同安区西柯镇美人山一里</view>
+  </view>
+  <view class='address_dom ov bg'>
+    <view class='fl dom_fl'><label><checkbox checked='true' />设为默认地址</label></view>
+    <view class='fr dom_fr'>
+      <button class='btn_change'><image mode="widthFix" src='/images/icon9.jpg' />编辑</button>
+      <button class='btn_delete'><image mode="widthFix" src='/images/icon10.jpg' />删除</button>
+    </view>
+  </view>
+  <view class='address_add'><button class='btn_add'>添加新地址</button></view>
+</view>

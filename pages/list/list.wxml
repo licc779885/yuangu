@@ -1,0 +1,212 @@
+<view id='list' class='flex-wrp' style="flex-direction:row;">
+  <view class='list_fl flex-item'>
+   <view class='fl_list'>
+     <scroll-view scroll-y>
+       <view class='list_lt'>
+          <navigator url='#link1'>列表1</navigator>
+        </view>
+        <view class='list_lt'>
+          <navigator url='#link2'>列表2</navigator>
+        </view>
+        <view class='list_lt'>
+          <navigator url='#link3'>列表3</navigator>
+        </view>
+        <view class='list_lt'>
+          <navigator url=''>列表4</navigator>
+        </view>
+        <view class='list_lt'>
+          <navigator>列表5</navigator>
+        </view>
+        <view class='list_lt'>
+          <navigator>列表6</navigator>
+        </view>
+     </scroll-view>
+   </view>
+  </view>
+  <view class='list_fr flex-item'>
+    <view class='fr_content'>
+      <scroll-view scroll-y>
+        <view class='content_box' id='link1'>
+          <view class='fr_imt'><image src='/images/img4.png' class="fr_img" /></view>
+          <view class='fr_title'>服装类</view>
+          <view class='fr_list'>
+            <view class='list_lt'>
+              <navigator url='../shopList/shopList'>
+                <view class='lt_imt'><image src='/images/img4.png'></image></view>
+                <view class='lt_name'>服装服装</view>
+              </navigator>
+            </view>
+            <view class='list_lt'>
+              <navigator url='../shopList/shopList'>
+                <view class='lt_imt'><image src='/images/img4.png'></image></view>
+                <view class='lt_name'>服装服装</view>
+              </navigator>
+            </view>
+            <view class='list_lt'>
+              <navigator url='../shopList/shopList'>
+                <view class='lt_imt'><image src='/images/img4.png'></image></view>
+                <view class='lt_name'>服装服装</view>
+              </navigator>
+            </view>
+            <view class='list_lt'>
+              <navigator url='../shopList/shopList'>
+                <view class='lt_imt'><image src='/images/img4.png'></image></view>
+                <view class='lt_name'>服装服装</view>
+              </navigator>
+            </view>
+            <view class='list_lt'>
+              <navigator>
+                <view class='lt_imt'><image src='/images/img4.png'></image></view>
+                <view class='lt_name'>服装服装</view>
+              </navigator>
+            </view>
+            <view class='list_lt'>
+              <navigator>
+                <view class='lt_imt'><image src='/images/img4.png'></image></view>
+                <view class='lt_name'>服装服装</view>
+              </navigator>
+            </view>
+            <view class='list_lt'>
+              <navigator>
+                <view class='lt_imt'><image src='/images/img4.png'></image></view>
+                <view class='lt_name'>服装服装</view>
+              </navigator>
+            </view>
+            <view class='list_lt'>
+              <navigator>
+                <view class='lt_imt'><image src='/images/img4.png'></image></view>
+                <view class='lt_name'>服装服装</view>
+              </navigator>
+            </view>
+            <view class='list_lt'>
+              <navigator>
+                <view class='lt_imt'><image src='/images/img4.png'></image></view>
+                <view class='lt_name'>服装服装</view>
+              </navigator>
+            </view>
+          </view>
+        </view>
+        <view class='content_box' id='link2'>
+          <view class='fr_imt'><image src='/images/img4.png' class="fr_img" /></view>
+          <view class='fr_title'>服装类</view>
+          <view class='fr_list'>
+            <view class='list_lt'>
+              <navigator>
+                <view class='lt_imt'><image src='/images/img4.png'></image></view>
+                <view class='lt_name'>服装服装</view>
+              </navigator>
+            </view>
+            <view class='list_lt'>
+              <navigator>
+                <view class='lt_imt'><image src='/images/img4.png'></image></view>
+                <view class='lt_name'>服装服装</view>
+              </navigator>
+            </view>
+            <view class='list_lt'>
+              <navigator>
+                <view class='lt_imt'><image src='/images/img4.png'></image></view>
+                <view class='lt_name'>服装服装</view>
+              </navigator>
+            </view>
+            <view class='list_lt'>
+              <navigator>
+                <view class='lt_imt'><image src='/images/img4.png'></image></view>
+                <view class='lt_name'>服装服装</view>
+              </navigator>
+            </view>
+            <view class='list_lt'>
+              <navigator>
+                <view class='lt_imt'><image src='/images/img4.png'></image></view>
+                <view class='lt_name'>服装服装</view>
+              </navigator>
+            </view>
+            <view class='list_lt'>
+              <navigator>
+                <view class='lt_imt'><image src='/images/img4.png'></image></view>
+                <view class='lt_name'>服装服装</view>
+              </navigator>
+            </view>
+            <view class='list_lt'>
+              <navigator>
+                <view class='lt_imt'><image src='/images/img4.png'></image></view>
+                <view class='lt_name'>服装服装</view>
+              </navigator>
+            </view>
+            <view class='list_lt'>
+              <navigator>
+                <view class='lt_imt'><image src='/images/img4.png'></image></view>
+                <view class='lt_name'>服装服装</view>
+              </navigator>
+            </view>
+            <view class='list_lt'>
+              <navigator>
+                <view class='lt_imt'><image src='/images/img4.png'></image></view>
+                <view class='lt_name'>服装服装</view>
+              </navigator>
+            </view>
+          </view>
+        </view>
+        <view class='content_box' id='link3'>
+          <view class='fr_imt'><image src='/images/img4.png' class="fr_img" /></view>
+          <view class='fr_title'>服装类</view>
+          <view class='fr_list'>
+            <view class='list_lt'>
+              <navigator>
+                <view class='lt_imt'><image src='/images/img4.png'></image></view>
+                <view class='lt_name'>服装服装</view>
+              </navigator>
+            </view>
+            <view class='list_lt'>
+              <navigator>
+                <view class='lt_imt'><image src='/images/img4.png'></image></view>
+                <view class='lt_name'>服装服装</view>
+              </navigator>
+            </view>
+            <view class='list_lt'>
+              <navigator>
+                <view class='lt_imt'><image src='/images/img4.png'></image></view>
+                <view class='lt_name'>服装服装</view>
+              </navigator>
+            </view>
+            <view class='list_lt'>
+              <navigator>
+                <view class='lt_imt'><image src='/images/img4.png'></image></view>
+                <view class='lt_name'>服装服装</view>
+              </navigator>
+            </view>
+            <view class='list_lt'>
+              <navigator>
+                <view class='lt_imt'><image src='/images/img4.png'></image></view>
+                <view class='lt_name'>服装服装</view>
+              </navigator>
+            </view>
+            <view class='list_lt'>
+              <navigator>
+                <view class='lt_imt'><image src='/images/img4.png'></image></view>
+                <view class='lt_name'>服装服装</view>
+              </navigator>
+            </view>
+            <view class='list_lt'>
+              <navigator>
+                <view class='lt_imt'><image src='/images/img4.png'></image></view>
+                <view class='lt_name'>服装服装</view>
+              </navigator>
+            </view>
+            <view class='list_lt'>
+              <navigator>
+                <view class='lt_imt'><image src='/images/img4.png'></image></view>
+                <view class='lt_name'>服装服装</view>
+              </navigator>
+            </view>
+            <view class='list_lt'>
+              <navigator>
+                <view class='lt_imt'><image src='/images/img4.png'></image></view>
+                <view class='lt_name'>服装服装</view>
+              </navigator>
+            </view>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+</view>

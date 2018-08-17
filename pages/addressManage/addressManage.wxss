@@ -1,0 +1,25 @@
+page{background:#f3f5f7;font-size: 0.8rem;color: #222;}
+.ov{overflow: hidden;}
+.fl{float: left;}
+.fr{float: right;}
+.cf2{color: #f23030;}
+.c99{color: #999;}
+.bg{background: #fff;}
+.address_info{padding: 0.4rem 0.6rem;border-top: 1px solid #eee;border-bottom:1px solid #eee;}
+.address_info .info_top .name{padding-right:3.0rem;}
+.address_info .info_text{margin-top: 0.5rem;color: #999;}
+.address_dom{padding:0.6rem 0.6rem;color: #999;font-size: 0.75rem;}
+.address_dom .dom_fr button{display: inline-block;height:1.5rem;line-height:1.5rem;color: #666;font-size: 0.75rem;margin-right: 1.0rem;position: relative;padding:0 0.5rem 0 1.8rem;background:#fff;}
+.address_dom .dom_fr button image{display:block;width:0.8rem;position: absolute;left:0.6rem;top:50%;margin-top: -0.4rem}
+
+.address_add .btn_add{width: 100%;height: 2.3rem;line-height: 2.3rem;position:fixed;left: 0;bottom:0;margin: 0;padding: 0;color: #fff;font-size: 0.8rem;background: #f23030;border-radius:0;}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,205 @@
+<view class="swiper">
+  <swiper mode="widthFix" indicator-dots="true" indicator-color="rgba(255, 255, 255, 1.0)" indicator-active-color="#ff0000" circular="true" autoplay="true" interval="5000" duration="500">
+    <swiper-item>
+        <image mode="widthFix" src="/images/img_big1.jpg" class="slide-image" />
+    </swiper-item>
+    <swiper-item>
+        <image mode="widthFix" src="/images/img_big2.jpg" class="slide-image" />
+    </swiper-item>
+    <swiper-item>
+        <image mode="widthFix" src="/images/img_big3.jpg" class="slide-image" />
+    </swiper-item>
+  </swiper>
+</view>
+<!--  -->
+<view class='shopName'>
+  <view class='name'>八马茶叶 云南普洱茶小沱茶熟饼新茶自饮黑茶5个500g包邮</view>
+  <view class='price'>
+    <view class="nowPrices">
+			<text class='nw'>￥75.00</text>
+			<text class="nl">￥150.00</text>
+		</view>
+    <view class='num'>销量：<text>10</text>个</view>
+  </view>
+</view>
+<!--选择送货地址-->
+<view class='address'>
+  <view class='address_text'>送至</view>
+  <view class='address_city'>
+    <view>请选择收货地址</view>
+  </view>
+</view>
+<!--  -->
+<view class='pingjia'>
+  <view class='pingjia_title'>
+    <image mode="widthFix" class='img' src='/images/logo.jpg'></image>
+    <view class='name'>圆古茶业</view>
+    <view class='score'>综合评分：5.00</view>
+  </view>
+  <view class='pingjia_score'>
+    <view class='scot score_allShop'>
+      <view class='num'>292</view>
+      <view class='text'>全部宝贝</view>
+    </view>
+    <view class='scot score_num'>
+      <view class='num'>2</view>
+      <view class='text'>关注人数</view>
+    </view>
+    <view class='scot score_text'>
+      <view class='sct'><text class='cmt'>描述相符</text><text class='col'>5.00</text></view>
+      <view class='sct'><text class='cmt'>服务态度</text><text class='col'>5.00</text></view>
+      <view class='sct'><text class='cmt'>发货速度</text><text class='col'>5.00</text></view>
+    </view>
+  </view>
+  <view class='pingjia_btn'>
+    <view class='btn btn_collect'><navigator url=''>收藏本店</navigator></view>
+    <view class='btn btn_goin'><navigator url=''>进入店铺</navigator></view>
+  </view>
+</view>
+<!--销量和收藏-->
+<view class='sale'>
+  <view class='sale_title'><text class="{{selected?'red':'default'}}" bindtap="selected">销售量</text><text class="{{selected1?'red':'default'}}" bindtap="selected1">收藏数</text></view>
+  <view class='sale_banner'>
+    <view class="{{selected?'show':'hidden'}}">
+      <swiper class='swiper-box' indicator-dots="true" indicator-color="rgba(0, 0,0, 0.3)" indicator-active-color="#ff0000" circular="true" autoplay="false">
+        <swiper-item>
+          <view class='swiper_list'>
+             <navigator>
+                <image mode="widthFix" src='/images/img_m3.jpg' />
+                <view class='text'>压箱底·普洱素砖 经典版(4砖) 生茶哦</view>
+                <view class='price'>¥1980.00</view>
+             </navigator>
+          </view>
+          <view class='swiper_list'>
+             <navigator>
+                <image mode="widthFix" src='/images/img_m2.jpg' />
+                <view class='text'>压箱底·普洱素砖 经典版(4砖) 生茶哦</view>
+                <view class='price'>¥1980.00</view>
+             </navigator>
+          </view>
+          <view class='swiper_list'>
+             <navigator>
+                <image mode="widthFix" src='/images/img_m1.jpg' />
+                <view class='text'>压箱底·普洱素砖 经典版(4砖) 生茶哦</view>
+                <view class='price'>¥1980.00</view>
+             </navigator>
+          </view>
+        </swiper-item>
+        <swiper-item>
+          <view class='swiper_list'>
+             <navigator>
+                <image mode="widthFix" src='/images/img_m3.jpg' />
+                <view class='text'>压箱底·普洱素砖 经典版(4砖) 生茶哦</view>
+                <view class='price'>¥1980.00</view>
+             </navigator>
+          </view>
+          <view class='swiper_list'>
+             <navigator>
+                <image mode="widthFix" src='/images/img_m4.jpg' />
+                <view class='text'>压箱底·普洱素砖 经典版(4砖) 生茶哦</view>
+                <view class='price'>¥1980.00</view>
+             </navigator>
+          </view>
+          <view class='swiper_list'>
+             <navigator>
+                <image mode="widthFix" src='/images/img_m5.jpg' />
+                <view class='text'>压箱底·普洱素砖 经典版(4砖) 生茶哦</view>
+                <view class='price'>¥1980.00</view>
+             </navigator>
+          </view>
+        </swiper-item>
+        <swiper-item>
+          <view class='swiper_list'>
+             <navigator>
+                <image mode="widthFix" src='/images/img_m3.jpg' />
+                <view class='text'>压箱底·普洱素砖 经典版(4砖) 生茶哦</view>
+                <view class='price'>¥1980.00</view>
+             </navigator>
+          </view>
+          <view class='swiper_list'>
+             <navigator>
+                <image mode="widthFix" src='/images/img_m2.jpg' />
+                <view class='text'>压箱底·普洱素砖 经典版(4砖) 生茶哦</view>
+                <view class='price'>¥1980.00</view>
+             </navigator>
+          </view>
+          <view class='swiper_list'>
+             <navigator>
+                <image mode="widthFix" src='/images/img_m1.jpg' />
+                <view class='text'>压箱底·普洱素砖 经典版(4砖) 生茶哦</view>
+                <view class='price'>¥1980.00</view>
+             </navigator>
+          </view>
+        </swiper-item>
+       </swiper>
+    </view>
+    <!--  -->
+    <view class="{{selected1?'show':'hidden'}}">
+      <swiper class='swiper-box' indicator-dots="true" indicator-color="rgba(0, 0,0, 0.3)" indicator-active-color="#ff0000" circular="true" autoplay="false">
+        <swiper-item>
+          <view class='swiper_list'>
+             <navigator>
+                <image mode="widthFix" src='/images/img_m1.jpg' />
+                <view class='text'>压箱底·普洱素砖 经典版(4砖) 生茶哦</view>
+                <view class='price'>¥1980.00</view>
+             </navigator>
+          </view>
+        </swiper-item>
+       </swiper>
+    </view>
+    <!--  -->
+  </view>
+</view>
+<!--商品详情-->
+<view class='shop'>
+  <view class='shop_title'><text class="{{ont?'bred':'b66'}}" bindtap='ont'>商品详情</text><text class="{{onm?'bred':'b66'}}" bindtap='onm'>规格参数</text></view>
+  <view class="{{ont?'show':'hidden'}}">
+    <view class='shop_info'>
+      <image mode="widthFix" src='/images/img_big1.jpg' />
+      <image mode="widthFix" src='/images/img_big2.jpg' />
+      <image mode="widthFix" src='/images/img_big3.jpg' />
+    </view>
+  </view>
+  <view class="{{onm?'show':'hidden'}}">
+    <view class='shop_cansu'>
+      <image mode="widthFix" src='/images/img_big3.jpg' />
+    </view>
+  </view>
+</view>
+<!--底部  -->
+<view class='shop_foot'>
+  <view class='btn_shop btw fl'>
+    <navigator url=''>
+      <view class='imt'><image mode="widthFix" src='/images/tab_shop_seller.png' /></view>
+      <view class='text'>店铺</view>
+    </navigator>
+  </view>
+  <view class='btn_collect btw fl'>
+    <navigator url=''>
+      <view class='imt'><image mode="widthFix" src='/images/ic_star_normal.png' /></view>
+      <view class='text'>收藏</view>
+    </navigator>
+  </view>
+  <view class='btn_message btw fl'>
+    <navigator url=''>
+      <view class='imt'><image mode="widthFix" src='/images/tab_shop_contact.png' /></view>
+      <view class='text'>客服</view>
+    </navigator>
+  </view>
+  <view class='btn btn_cart fl'>加入购物车</view>
+  <view class='btn btn_buy fl'>立即购买</view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
