@@ -5,7 +5,6 @@
     "pages/orderInfo/orderInfo",
     "pages/myorder/myorder",
     "pages/shopList/shopList",
-    
     "pages/addressManageList/addManageList",
     "pages/userSet/userSet",
     "pages/addressManage/addressManage",
@@ -16,7 +15,7 @@
     "pages/list/list",
     "pages/cart/cart",
     "pages/logs/logs"
-    
+
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -156,7 +156,7 @@
        </swiper>
     </view>
   </view>
-  
+
   <view class='pinp_list'>
     <view class='pinp_title'><image mode="widthFix" src='/images/title2.jpg' /></view>
     <view class='pinp_imt'><image mode="widthFix" src='/images/img2.jpg' /></view>
@@ -270,5 +270,3 @@
      <view class='guess_not'><image mode="widthFix" src='/images/bg_bottom_nomore.png' /></view>
   </view>
 </view>
-
-
